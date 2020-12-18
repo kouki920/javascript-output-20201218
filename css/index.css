@@ -1,0 +1,97 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+#add_text_area {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#start_button {
+  display: block;
+  margin: 50px auto;
+  padding: 20px 40px;
+  -webkit-transform: translate(-2px, -2px);
+          transform: translate(-2px, -2px);
+  -webkit-box-shadow: 5px 5px 0px 0px;
+          box-shadow: 5px 5px 0px 0px;
+  cursor: pointer;
+}
+
+#start_button:active {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: 0 0 #333;
+          box-shadow: 0 0 #333;
+}
+
+#stop_button {
+  display: block;
+  margin: 50px auto;
+  padding: 20px 40px;
+  -webkit-transform: translate(-2px, -2px);
+          transform: translate(-2px, -2px);
+  -webkit-box-shadow: 5px 5px 0px 0px;
+          box-shadow: 5px 5px 0px 0px;
+  cursor: pointer;
+}
+
+#stop_button:active {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: 0 0 #333;
+          box-shadow: 0 0 #333;
+}
+
+#reset_button {
+  display: block;
+  margin: 50px auto;
+  padding: 20px 40px;
+  -webkit-transform: translate(-2px, -2px);
+          transform: translate(-2px, -2px);
+  -webkit-box-shadow: 5px 5px 0px 0px;
+          box-shadow: 5px 5px 0px 0px;
+  cursor: pointer;
+}
+
+#reset_button:active {
+  -webkit-transform: translate(2px, 2px);
+          transform: translate(2px, 2px);
+  -webkit-box-shadow: 0 0 #333;
+          box-shadow: 0 0 #333;
+}
+
+#textbox {
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#textbox #text_area {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  border: 1px solid #333;
+  width: 200px;
+  height: 50px;
+}
+
+.clrarray {
+  visibility: hidden;
+}
+/*# sourceMappingURL=index.css.map */
