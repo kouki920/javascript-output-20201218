@@ -21,8 +21,7 @@ let prefectures = [
   'オムライス',
   '青椒肉絲',
   '刺身',
-  '焼肉',
-  '春巻き'
+  '焼肉'
 ];
 let prefectureIndex = 0;
 let timeoutId = 0;
